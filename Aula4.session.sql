@@ -190,6 +190,14 @@ JOIN filme_exibido_sala fes ON f.idFilme = fes.filme_idFilme
 JOIN sala s ON fes.sala_idSala = s.idSala
 WHERE s.capacidade > (SELECT AVG(capacidade) FROM sala);
 
+select f.nomeBR, s.nome as sala, s.capacidade
+from filme_exibido_sala fs
+join sala s on f.sala_idSala = s.idSalas
+join filme f on fs.filme_idFilme = f.idFilme
+where s.capacidade > (select avg (capacidade) from sala);
+
+
+
 
 
 
