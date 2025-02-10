@@ -58,8 +58,8 @@ INSERT INTO instrutor (RG, nome, nascimento, titulacao) VALUES
 
 -- Inserir telefones dos instrutores
 INSERT INTO telefone_instrutor (numero, tipo, instrutor_idinstrutor) VALUES
-(11987654321, 'Celular', 1),
-(11234567890, 'Residencial', 2);
+(11521, 'Celular', 1),
+(16780, 'Residencial', 2);
 
 -- Inserir atividades
 INSERT INTO atividade (nome) VALUES
@@ -139,7 +139,7 @@ WHERE a.nome IN ('Crossfit', 'Yoga');
 
 SELECT
     a.nome AS aluno,
-    COUNT(a.turma_idturma) AS total_turmas
+    COUNT(.turma_idturma) AS total_turmas
 FROM aluno a
 GROUP BY a.nome
 HAVING COUNT(a.turma_idturma) > 1;
@@ -150,7 +150,7 @@ update turma set nome = 'Yoga' where idturma = 1;
 update turma set nome = 'Pilates' where idturma = 2;
 
 select * from turma;
-ALTER TABLE aluno 
+ALTER TABLE aluno a
 ADD CONSTRAINT fk_aluno_turma 
 FOREIGN KEY (turma_idturma) 
 REFERENCES turma(idturma);
