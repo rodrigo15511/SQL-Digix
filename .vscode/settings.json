@@ -59,6 +59,16 @@
             "username": "postgres",
             "database": "Aula5",
             "password": "#Vasco2024"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "exercicioview",
+            "database": "exercicioview",
+            "username": "postgres",
+            "password": "#Vasco2024"
         }
     ]
 }
