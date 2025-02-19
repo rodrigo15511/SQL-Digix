@@ -89,6 +89,16 @@
             "database": "exerciciofunctio",
             "username": "postgres",
             "password": "#Vasco2024"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "exercicioprocedure",
+            "database": "exercicioprocedure",
+            "username": "postgres",
+            "password": "#Vasco2024"
         }
     ]
 }
