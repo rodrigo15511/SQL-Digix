@@ -36,7 +36,7 @@ VALUES
 -- Quando as trigger são nescessarias?
 -- 1 - Quando é nescessario garantir a integridade dos dados
 -- 2 - Quando é nescessario garantir a consistencia dos dados
--- 3 - Para validar regreas de negocio antes de inserir, atualizar ou deletar dados
+-- 3 - Para validar regras de negocio antes de inserir, atualizar ou deletar dados
 -- 4 - Para automatizar tarefas que devem ser executadas
 
 --  Para mostrar como acontece nas auditorias vou fazer uma tabela que registrar os eventos das outras
