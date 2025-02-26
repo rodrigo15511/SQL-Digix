@@ -119,6 +119,26 @@
             "username": "postgres",
             "database": "exerciciotrigger1",
             "password": "#Vasco2024"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "desafioestoque",
+            "database": "desafioestoque",
+            "username": "postgres",
+            "password": "#Vasco2024"
+        },
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Desafiioestoques",
+            "database": "Desafiioestoques",
+            "username": "postgres",
+            "password": "#Vasco2024"
         }
     ]
 }
